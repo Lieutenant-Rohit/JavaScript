@@ -1,0 +1,52 @@
+//Day - 1  of JavaScript
+//Number Datatype
+let a = 5;
+console.log(a);
+console.log("---------------------------");
+
+//String Datatype
+let st = "Hello World";
+console.log(st);
+console.log(typeof (st));
+console.log("---------------------------");
+
+//Object Datatype
+let phone = {"name":"iphone 13","Ram":"16GB"};
+console.log(phone);
+console.log(typeof (phone));
+console.log("---------------------------");
+
+//List Datatype
+let students = ["Alex","John","Nikki","Bella"];
+console.log(students);
+console.log(typeof (students));
+console.log("---------------------------");
+
+//Null Datatype
+let std = null;
+console.log(std);
+console.log(typeof (std));
+console.log("---------------------------");
+
+console.log("Mathematical Operations on Number Datatypes");
+console.log("Addition of 213+432 is = "+(213+432));
+console.log("Multiplication of 10x10 is = "+ 10*10);
+
+console.log("---------------------------");
+console.log("Number Functions");
+console.log("1----parseInt() ");
+let no = "316";
+console.log("316 is a " + typeof (no));
+let no1 = parseInt(no);
+console.log("String---->Interger using parseInt()");
+console.log("316 is a "+typeof (no1));
+
+console.log("2----toString()");
+let x = 123;
+console.log(x+" is a " + typeof (x));
+console.log("Number ----> String using toString()");
+let y= toString(x);
+console.log(x + " is a " +typeof (y));
+
+
+
