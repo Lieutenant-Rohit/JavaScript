@@ -1,1 +1,65 @@
 
+//Working with String
+
+//Working with quotes
+console.log("My mom told me,\"You should eat healthy vegetables\"");
+console.log("-------------------------------");
+
+//+ operation in String (Concatenation)
+console.log("Hello "+"World!");
+console.log('2'-1);
+console.log('5'*10);
+console.log("-------------------------------");
+
+
+//String interpolation using template literal ${variable}
+let customer = "John";
+let greeting = `Hello ${customer},Today is ${Date()}`;
+console.log(greeting);
+console.log("-------------------------------");
+
+/*Common String methods
+1--> Length: Retrieves the length of a string.
+2--> toUpperCase(): Converts a string to uppercase.
+3--> toLowerCase(): Converts a string to lowercase.
+4--> trim(): Removes white spaces from the beginning and end of a string.
+5--> split(): Split a string into an array based on a specified delimiter.
+6--> indexOf(): Finds the position of a specific substring within a string.
+7--> replace(): Replace a specifies substring.
+8--> substring(): Extracts a portion of a string.
+9--> slice(): extracts a portion of a string.
+ */
+
+let st = "Hello there how are you ? ";
+console.log(st);
+let length = st.length
+console.log("Length = "+length);
+console.log(st.toUpperCase());
+console.log(st.toLowerCase());
+let st1 =  "    Javascript is so     cool";
+console.log("Before Trim:"+st1);
+console.log("After trim: "+st1.trim());
+let st3 = "Hello there, How are you?";
+console.log("Before Split: "+st3);
+console.log("After split");
+console.log(st3.split(","));
+console.log("Finding Index of \",\"");
+console.log(st3.indexOf(","));
+console.log("After Slicing");
+console.log("Ending Index is excludes in substring function");
+console.log(st3.slice(0,11));
+
+console.log("Difference between substring and slice");
+let st4="hello there";
+console.log(st4);
+console.log("Slice:"+st4.slice(-5));
+console.log("Substring:"+st4.substring(-5));
+
+
+
+
+
+
+
+
+
